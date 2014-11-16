@@ -1,0 +1,10 @@
+PODS:
+  - performSelector-swift (0.1.0)
+
+DEPENDENCIES:
+  - performSelector-swift
+
+SPEC CHECKSUMS:
+  performSelector-swift: 5bee0fed10c9dcd2706b27947ed406e8a03c5470
+
+COCOAPODS: 0.34.2
