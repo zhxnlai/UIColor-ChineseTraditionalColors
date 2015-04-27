@@ -63,8 +63,10 @@ class CTCCollectionViewController: UICollectionViewController, UICollectionViewD
                         NSForegroundColorAttributeName: foregroundColor]
             var attrsSub = [NSFontAttributeName : UIFont(name: "HelveticaNeue-Light", size: 14)!,
                             NSForegroundColorAttributeName: foregroundColor.colorWithAlphaComponent(0.8)]
-            var attributedString = NSMutableAttributedString(string: name+"\n", attributes: attrs)
-            attributedString.appendAttributedString(NSAttributedString(string: desc, attributes: attrsSub))
+            var attributedString = NSMutableAttributedString(string: name, attributes: attrs)
+            if desc != "" {
+                attributedString.appendAttributedString(NSAttributedString(string: "\n"+desc, attributes: attrsSub))
+            }
             cache[indexPath.item] = (attributedString, uiColor)
             return (attributedString, uiColor)
         }
