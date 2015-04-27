@@ -9,15 +9,15 @@ Previews
 
 CocoaPods
 ---
-You can install `ZLBalancedFlowLayout` through CocoaPods adding the following to your Podfile:
+You can install `UIColor-ChineseTraditionalColors` through CocoaPods adding the following to your Podfile:
 
 ~~~ruby
-pod 'ZLBalancedFlowLayout'
+pod 'UIColor-ChineseTraditionalColors'
 ~~~
 
-CocoaPods' support for swift is still pre-released, and requires your iOS deployment target to be [8.0 or later](https://github.com/CocoaPods/swift):
+CocoaPods 0.36 adds supports for Swift and embedded frameworks. You can install it with the following command:
 ```bash
-[sudo] gem install cocoapods --pre
+[sudo] gem install cocoapods
 ```
 
 Usage
