@@ -19,13 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if let window = window {
             var layout = UICollectionViewFlowLayout()
             layout.itemSize = CGSize(width: UIScreen.mainScreen().bounds.width, height: 90)
-//            layout.headerReferenceSize = CGSize(width: 100, height: 100)
-//            layout.footerReferenceSize = CGSize(width: 100, height: 100)
-//            layout.sectionInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
-//            layout.minimumLineSpacing = 5
             layout.minimumLineSpacing = 0
-            var viewController = CTCCollectionViewController(collectionViewLayout: layout)
-            window.rootViewController = UINavigationController(rootViewController: viewController)
+            window.rootViewController = CTCCollectionViewController(collectionViewLayout: layout)
             window.makeKeyAndVisible()
         }
         

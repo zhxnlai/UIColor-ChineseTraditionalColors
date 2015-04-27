@@ -29,14 +29,10 @@ class CTCCollectionViewController: UICollectionViewController, UICollectionViewD
         title = "UIColor+ChineseTraditionalColors"
         navigationController?.setNavigationBarHidden(true, animated: false)
         
-        collectionView?.backgroundColor = UIColor.鸦青()
+        collectionView?.backgroundColor = UIColor.粉红()
         collectionView?.registerClass(CTCCollectionViewCell.classForCoder(), forCellWithReuseIdentifier: cellIdentifier)
     }
     
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return .LightContent
-    }
-
     // MARK: - UICollectionViewDataSource
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if let numColors = colors?.count {
@@ -51,7 +47,6 @@ class CTCCollectionViewController: UICollectionViewController, UICollectionViewD
             cell.color = color
             cell.attributedText = attributedText
         }
-        cell.clipsToBounds = true
         return cell
     }
     
