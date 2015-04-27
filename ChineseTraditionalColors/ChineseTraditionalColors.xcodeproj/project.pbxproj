@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		09673A6B1AEE10E8008C7240 /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 09673A6A1AEE10E8008C7240 /* colors.json */; };
-		09673A6D1AEE19CB008C7240 /* UIColor+ChineseTraditionalColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09673A6C1AEE19CB008C7240 /* UIColor+ChineseTraditionalColors.swift */; };
 		09673A6F1AEE19F6008C7240 /* CTCCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09673A6E1AEE19F6008C7240 /* CTCCollectionViewController.swift */; };
 		09673A711AEE1C31008C7240 /* CTCCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09673A701AEE1C31008C7240 /* CTCCollectionViewCell.swift */; };
+		09673A741AEE3318008C7240 /* UIColor+ChineseTraditionalColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09673A731AEE3318008C7240 /* UIColor+ChineseTraditionalColors.swift */; };
 		09E9254B1A07528800850370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E9254A1A07528800850370 /* AppDelegate.swift */; };
 		09E925501A07528800850370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E9254E1A07528800850370 /* Main.storyboard */; };
 		09E925521A07528800850370 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E925511A07528800850370 /* Images.xcassets */; };
@@ -32,9 +32,9 @@
 
 /* Begin PBXFileReference section */
 		09673A6A1AEE10E8008C7240 /* colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
-		09673A6C1AEE19CB008C7240 /* UIColor+ChineseTraditionalColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ChineseTraditionalColors.swift"; sourceTree = "<group>"; };
 		09673A6E1AEE19F6008C7240 /* CTCCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTCCollectionViewController.swift; sourceTree = "<group>"; };
 		09673A701AEE1C31008C7240 /* CTCCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTCCollectionViewCell.swift; sourceTree = "<group>"; };
+		09673A731AEE3318008C7240 /* UIColor+ChineseTraditionalColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ChineseTraditionalColors.swift"; sourceTree = "<group>"; };
 		09E925451A07528800850370 /* ChineseTraditionalColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChineseTraditionalColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E925491A07528800850370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09E9254A1A07528800850370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09673A721AEE3318008C7240 /* UIColor+ChineseTraditionalColors */ = {
+			isa = PBXGroup;
+			children = (
+				09673A731AEE3318008C7240 /* UIColor+ChineseTraditionalColors.swift */,
+			);
+			name = "UIColor+ChineseTraditionalColors";
+			path = "../../UIColor+ChineseTraditionalColors";
+			sourceTree = "<group>";
+		};
 		09E9253C1A07528800850370 = {
 			isa = PBXGroup;
 			children = (
@@ -96,10 +105,10 @@
 		09E925471A07528800850370 /* ChineseTraditionalColors */ = {
 			isa = PBXGroup;
 			children = (
+				09673A721AEE3318008C7240 /* UIColor+ChineseTraditionalColors */,
 				09E9254A1A07528800850370 /* AppDelegate.swift */,
 				09673A6E1AEE19F6008C7240 /* CTCCollectionViewController.swift */,
 				09673A701AEE1C31008C7240 /* CTCCollectionViewCell.swift */,
-				09673A6C1AEE19CB008C7240 /* UIColor+ChineseTraditionalColors.swift */,
 				09673A6A1AEE10E8008C7240 /* colors.json */,
 				09E9254E1A07528800850370 /* Main.storyboard */,
 				09E925511A07528800850370 /* Images.xcassets */,
@@ -355,8 +364,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09673A741AEE3318008C7240 /* UIColor+ChineseTraditionalColors.swift in Sources */,
 				09673A711AEE1C31008C7240 /* CTCCollectionViewCell.swift in Sources */,
-				09673A6D1AEE19CB008C7240 /* UIColor+ChineseTraditionalColors.swift in Sources */,
 				09E9254B1A07528800850370 /* AppDelegate.swift in Sources */,
 				09673A6F1AEE19F6008C7240 /* CTCCollectionViewController.swift in Sources */,
 			);
