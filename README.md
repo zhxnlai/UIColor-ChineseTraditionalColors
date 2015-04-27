@@ -26,6 +26,10 @@ Usage
 ---
 Checkout the [demo app](https://github.com/zhxnlai/UIColor-ChineseTraditionalColors/tree/master/ChineseTraditionalColors) for an example.
 
+~~~swift
+view.backgroundColor = UIColor.竹青()
+~~~
+
 License
 ---
 UIColor-ChineseTraditionalColors is available under MIT license. See the LICENSE file for more info.
