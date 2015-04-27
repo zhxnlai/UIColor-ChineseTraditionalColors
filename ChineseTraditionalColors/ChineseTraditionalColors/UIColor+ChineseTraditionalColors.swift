@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+// source: http://ylbook.com/cms/web/chuantongsecai/chuantongsecai.htm
 extension UIColor {
     // traditional chinese
     class func 粉紅() -> UIColor {return UIColor(red: 1.000, green: 0.702, blue: 0.655, alpha: 1)}
@@ -312,19 +313,19 @@ extension UIColor {
     // class func 玄青() -> UIColor {return UIColor(red: 0.239, green: 0.231, blue: 0.310, alpha: 1)}
     class func 乌色() -> UIColor {return UIColor(red: 0.447, green: 0.369, blue: 0.510, alpha: 1)}
     class func 乌黑() -> UIColor {return UIColor(red: 0.224, green: 0.184, blue: 0.255, alpha: 1)}
-    // class func 漆黑() -> UIColor {return UIColor(red: 0.086, green: 0.094, blue: 0.137, alpha: 1)}
-    // class func 墨色() -> UIColor {return UIColor(red: 0.314, green: 0.380, blue: 0.427, alpha: 1)}
-    // class func 墨灰() -> UIColor {return UIColor(red: 0.459, green: 0.541, blue: 0.600, alpha: 1)}
-    // class func 黑色() -> UIColor {return UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)}
-    // class func 缁色() -> UIColor {return UIColor(red: 0.286, green: 0.192, blue: 0.192, alpha: 1)}
-    // class func 煤黑() -> UIColor {return UIColor(red: 0.192, green: 0.145, blue: 0.125, alpha: 1)}
-    // class func 黧() -> UIColor {return UIColor(red: 0.365, green: 0.318, blue: 0.235, alpha: 1)}
-    // class func 黎() -> UIColor {return UIColor(red: 0.459, green: 0.400, blue: 0.302, alpha: 1)}
-    // class func 黝() -> UIColor {return UIColor(red: 0.420, green: 0.408, blue: 0.510, alpha: 1)}
-    // class func 黝黑() -> UIColor {return UIColor(red: 0.400, green: 0.341, blue: 0.341, alpha: 1)}
-    // class func 黯() -> UIColor {return UIColor(red: 0.255, green: 0.333, blue: 0.365, alpha: 1)}
-    // class func 赤金() -> UIColor {return UIColor(red: 0.949, green: 0.745, blue: 0.271, alpha: 1)}
-    // class func 金色() -> UIColor {return UIColor(red: 0.918, green: 0.804, blue: 0.463, alpha: 1)}
+//     class func 漆黑() -> UIColor {return UIColor(red: 0.086, green: 0.094, blue: 0.137, alpha: 1)}
+//     class func 墨色() -> UIColor {return UIColor(red: 0.314, green: 0.380, blue: 0.427, alpha: 1)}
+//     class func 墨灰() -> UIColor {return UIColor(red: 0.459, green: 0.541, blue: 0.600, alpha: 1)}
+//     class func 黑色() -> UIColor {return UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)}
+     class func 缁色() -> UIColor {return UIColor(red: 0.286, green: 0.192, blue: 0.192, alpha: 1)}
+//     class func 煤黑() -> UIColor {return UIColor(red: 0.192, green: 0.145, blue: 0.125, alpha: 1)}
+//     class func 黧() -> UIColor {return UIColor(red: 0.365, green: 0.318, blue: 0.235, alpha: 1)}
+//     class func 黎() -> UIColor {return UIColor(red: 0.459, green: 0.400, blue: 0.302, alpha: 1)}
+//     class func 黝() -> UIColor {return UIColor(red: 0.420, green: 0.408, blue: 0.510, alpha: 1)}
+//     class func 黝黑() -> UIColor {return UIColor(red: 0.400, green: 0.341, blue: 0.341, alpha: 1)}
+//     class func 黯() -> UIColor {return UIColor(red: 0.255, green: 0.333, blue: 0.365, alpha: 1)}
+//     class func 赤金() -> UIColor {return UIColor(red: 0.949, green: 0.745, blue: 0.271, alpha: 1)}
+//     class func 金色() -> UIColor {return UIColor(red: 0.918, green: 0.804, blue: 0.463, alpha: 1)}
     class func 银白() -> UIColor {return UIColor(red: 0.914, green: 0.906, blue: 0.937, alpha: 1)}
     class func 铜绿() -> UIColor {return UIColor(red: 0.329, green: 0.588, blue: 0.533, alpha: 1)}
     class func 乌金() -> UIColor {return UIColor(red: 0.655, green: 0.557, blue: 0.267, alpha: 1)}

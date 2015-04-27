@@ -6,6 +6,12 @@
 // project.
 
 
+// SwiftyJSON
+#define COCOAPODS_POD_AVAILABLE_SwiftyJSON
+#define COCOAPODS_VERSION_MAJOR_SwiftyJSON 2
+#define COCOAPODS_VERSION_MINOR_SwiftyJSON 2
+#define COCOAPODS_VERSION_PATCH_SwiftyJSON 0
+
 // performSelector-swift
 #define COCOAPODS_POD_AVAILABLE_performSelector_swift
 #define COCOAPODS_VERSION_MAJOR_performSelector_swift 0
