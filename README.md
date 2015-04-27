@@ -26,4 +26,4 @@ Checkout the [demo app](https://github.com/zhxnlai/UIColor-ChineseTraditionalCol
 
 License
 ---
-ZLBalancedFlowLayout is available under MIT license. See the LICENSE file for more info.
+UIColor-ChineseTraditionalColors is available under MIT license. See the LICENSE file for more info.
