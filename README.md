@@ -1,7 +1,7 @@
 UIColor-ChineseTraditionalColors
 ================================
 
-A swift extension that extends UIColor with a list of Chinese traditional colors from http://ylbook.com/cms/web/chuantongsecai/chuantongsecai.htm
+A swift extension that extends UIColor with a list of [Chinese traditional colors](http://ylbook.com/cms/web/chuantongsecai/chuantongsecai.htm), inspired by [UIColor-FlatColors](https://github.com/mokagio/UIColor-FlatColors).
 
 There are a total of [158](https://github.com/zhxnlai/UIColor-ChineseTraditionalColors/blob/master/ChineseTraditionalColors/ChineseTraditionalColors/colors.json) different colors.
 
